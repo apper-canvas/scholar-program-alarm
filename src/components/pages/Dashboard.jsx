@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
-import StatCard from "@/components/molecules/StatCard";
-import StudentCard from "@/components/molecules/StudentCard";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
-import Empty from "@/components/ui/Empty";
-import Icon from "@/components/ui/Icon";
 import { studentsService } from "@/services/api/studentsService";
-import { attendanceService } from "@/services/api/attendanceService";
 import { gradesService } from "@/services/api/gradesService";
 import { assignmentsService } from "@/services/api/assignmentsService";
+import { attendanceService } from "@/services/api/attendanceService";
 import { useNavigate } from "react-router-dom";
+import ApperIcon from "@/components/ApperIcon";
+import StatCard from "@/components/molecules/StatCard";
+import StudentCard from "@/components/molecules/StudentCard";
+import Students from "@/components/pages/Students";
+import Error from "@/components/ui/Error";
+import Empty from "@/components/ui/Empty";
+import Loading from "@/components/ui/Loading";
 
 const Dashboard = () => {
   const [students, setStudents] = useState([]);
@@ -179,7 +180,7 @@ const Dashboard = () => {
           >
 <div className="flex items-center space-x-3">
 <div className="w-10 h-10 bg-gradient-to-br from-primary/10 to-secondary/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-<Icon name={item.icon} className="w-5 h-5 text-primary" />
+<ApperIcon name={item.icon} className="w-5 h-5 text-primary" />
 </div>
 <span className="font-medium text-gray-900">{item.title}</span>
             </div>
