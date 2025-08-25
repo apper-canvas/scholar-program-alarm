@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "title": "Algebra Quiz #1",
+    "category": "Quiz",
+    "totalPoints": 50,
+    "dueDate": "2024-01-15",
+    "classId": "math101"
+  },
+  {
+    "Id": 2,
+    "title": "Essay: American Literature",
+    "category": "Essay",
+    "totalPoints": 100,
+    "dueDate": "2024-01-20",
+    "classId": "english101"
+  },
+  {
+    "Id": 3,
+    "title": "Science Lab Report",
+    "category": "Lab",
+    "totalPoints": 75,
+    "dueDate": "2024-01-18",
+    "classId": "science101"
+  },
+  {
+    "Id": 4,
+    "title": "History Research Project",
+    "category": "Project",
+    "totalPoints": 150,
+    "dueDate": "2024-01-25",
+    "classId": "history101"
+  },
+  {
+    "Id": 5,
+    "title": "Geometry Test",
+    "category": "Test",
+    "totalPoints": 100,
+    "dueDate": "2024-01-22",
+    "classId": "math101"
+  },
+  {
+    "Id": 6,
+    "title": "Book Report: To Kill a Mockingbird",
+    "category": "Report",
+    "totalPoints": 80,
+    "dueDate": "2024-01-30",
+    "classId": "english101"
+  },
+  {
+    "Id": 7,
+    "title": "Chemistry Lab Practical",
+    "category": "Practical",
+    "totalPoints": 90,
+    "dueDate": "2024-01-28",
+    "classId": "science101"
+  },
+  {
+    "Id": 8,
+    "title": "World War II Timeline",
+    "category": "Assignment",
+    "totalPoints": 60,
+    "dueDate": "2024-02-01",
+    "classId": "history101"
+  }
+]
