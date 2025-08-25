@@ -64,7 +64,7 @@ const Students = () => {
     setFilteredStudents(filtered);
   }, [students, searchTerm, gradeFilter, statusFilter]);
 
-  const handleView = (student) => {
+const handleView = (student) => {
     navigate(`/students/${student.Id}`);
   };
 
